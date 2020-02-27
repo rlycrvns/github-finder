@@ -23,6 +23,7 @@ class User extends Component {
       blog,
       login,
       html_url,
+      company,
       followers,
       following,
       public_repos,
@@ -82,14 +83,22 @@ class User extends Component {
                 )}
               </li>
               <li>
-                {login && (
+                {blog && (
                   <Fragment>
-                    <strong>Username: </strong> {login}
+                    <strong>Website: </strong> {blog}
                   </Fragment>
                 )}
               </li>
             </ul>
           </div>
+        </div>
+        <div className="card text-center">
+          <div className="badge badge-primary">Followers: {followers}</div>
+          <div className="badge badge-light">Following: {following}</div>
+          <div className="badge badge-success">
+            Public Repos: {public_repos}
+          </div>
+          <div className="badge badge-dark">Public Gists: {public_gists}</div>
         </div>
       </Fragment>
     );
