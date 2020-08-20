@@ -6,4 +6,4 @@
 
 It runs a search on Github users, returning profile information along with the user's 5 most recent repos
 
-The initial build of the project is done using Class Components, a refactor is then done to implement hooks and finally a third refactor is done to implement the Context API
+The initial build of the project is done using Class Components, a refactor is then done to implement hooks, and finally a third refactor is done to implement the Context API
