@@ -41,11 +41,6 @@ const App = () => {
     setLoading(false);
   };
 
-  const clearUsers = () => {
-    setUsers([]);
-    setLoading(false);
-  };
-
   const showAlert = (msg, type) => {
     setAlert({ msg, type });
 
